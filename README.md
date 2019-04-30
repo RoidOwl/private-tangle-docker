@@ -4,14 +4,23 @@ tar -xvzf private-tangle-docker.gz
 sudo apt-get install pkg-config zip g++ zlib1g-dev unzip python
 
 cd private-tangle
+
 chmod +x bazel-0.18.0-installer-linux-x86_64.sh
+
 sudo ./bazel-0.18.0-installer-linux-x86_64.sh
+
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
 sudo apt update
+
 sudo apt install docker-ce
+
 sudo add-apt-repository universe
+
 sudo apt install jq
 
 cd compass/docs/private-tangle

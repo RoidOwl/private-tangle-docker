@@ -32,8 +32,8 @@ sudo docker run -d --name iota-node iotaledger/iri:latest --testnet --remote --t
 
 sudo ./03_run_coordinator.sh -broadcast -bootstrap
 
-cd ../../../iritop
+cd ../../../iritop;
 python iritop.py
 
-cd ../iota-2.5.7
+cd ../iota-2.5.7;
 ./iota

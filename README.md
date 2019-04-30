@@ -1,4 +1,5 @@
 wget https://drive.google.com/open?id=1oH8eIPy_964HT3uuQYEhd5rRcqNHSuzZ
+
 tar -xvzf private-tangle-docker.gz
 
 sudo apt-get install pkg-config zip g++ zlib1g-dev unzip python
